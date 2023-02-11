@@ -1,8 +1,8 @@
-# Prueba desarrollo front-end isEazy B - TypeScript 
+# Prueba desarrollo front-end isEazy B - TypeScript - Vitest
 
 ## Herramientas adicionales
 
-- Font Awesome, prettier-plugin-tailwindcss, tailwind-scrollbar. 
+- Font Awesome, prettier-plugin-tailwindcss, tailwind-scrollbar.
 
 ## Enlace al proyecto publicado
 

@@ -2,7 +2,7 @@
   <div class="mx-auto w-full p-4">
     <header>
       <h1 class="p-10 text-center md:p-20">
-        Prueba desarrollo front-end isEazy B - TypeScript
+        Prueba desarrollo front-end isEazy B - TypeScript - Vitest
       </h1>
     </header>
 
