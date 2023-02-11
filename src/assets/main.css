@@ -1,3 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-ubuntu;
+  }
+
+  h1 {
+    @apply mt-0 mb-2 text-4xl font-bold leading-tight text-gray-700;
+  }
+
+  h2 {
+    @apply mt-0 mb-2 text-3xl font-bold leading-tight text-gray-700;
+  }
+
+  h3 {
+    @apply mt-0 mb-2 text-2xl font-bold leading-tight text-gray-700;
+  }
+
+  h4 {
+    @apply mt-0 mb-2 text-xl font-bold leading-tight text-gray-700;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply mt-8 block rounded-full px-6 py-2.5 text-base font-bold text-white shadow-md md:mt-0 md:inline-block w-full md:w-auto;
+  }
+
+  .btn:hover {
+    @apply opacity-80 shadow-lg transition duration-300 ease-in-out;
+  }
+
+  .btn-primary {
+    @apply bg-sky-500;
+  }
+}
