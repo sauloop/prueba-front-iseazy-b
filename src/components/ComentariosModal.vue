@@ -78,10 +78,6 @@ defineProps({
   show: Boolean,
 });
 
-interface State {
-  comentarios: Comentario;
-}
-
 const mensaje: Ref<string> = ref("");
 const comentariosStore = useComentariosStore();
 
